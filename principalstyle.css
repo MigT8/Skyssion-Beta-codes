@@ -1,0 +1,62 @@
+body{
+    background-color: lightslategray;
+    margin: 0px;
+}
+#skyheader{
+    background-color:rgb(33, 107, 153);
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0px 3px 5px rgb(12, 49, 71);
+}
+
+
+
+#subtitle{
+    font-family: "consolas";
+    text-shadow: 0px 3px 0px rgb(12, 49, 71);
+}
+#informations{
+    font-family: "consolas";
+}
+#fontdiv1{
+    font-family: "consolas";
+    font-size: 20px;
+}
+
+
+
+h2{
+    color:aliceblue
+}
+h1{
+    color:aliceblue
+}
+span{
+    color:aliceblue
+}
+footer{
+    color:aliceblue;
+    background-color:rgb(11, 49, 73);
+    height: 25vh;
+    padding: 10px;
+
+}
+
+#divstep{
+    border: 2px solid rgb(5, 14, 65);
+    background-color: rgb(33, 107, 153);
+    width: 100px;
+    height: 279px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: "consolas";
+}
+
+#divprincipal{
+    background-image: url(simplebackground.png);
+}
+#creat{
+    font-family: "consolas";
+}
