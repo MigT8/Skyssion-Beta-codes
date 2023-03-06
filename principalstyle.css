@@ -5,13 +5,18 @@ body{
 #skyheader{
     background-color:rgb(33, 107, 153);
     height: 7vh;
-    display: flex;
     align-items: center;
     padding: 10px;
-    box-shadow: 0px 3px 5px rgb(12, 49, 71);
+    position: absolute;
+    position: fixed;
+    width: 2080px;
+    height: 35px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
-
-
+#miniicon{
+    position: relative;
+    top: -4px;
+}
 
 #subtitle{
     font-family: "consolas";
@@ -36,12 +41,19 @@ h1{
 span{
     color:aliceblue
 }
-footer{
-    color:aliceblue;
-    background-color:rgb(11, 49, 73);
-    height: 25vh;
-    padding: 10px;
 
+#login{
+    font-family: "consolas";
+    font-size: 30px;
+    color:aliceblue;
+    position: relative;
+    top: 100px;
+}
+
+#loginform{
+    align-items: center;
+    position: relative;
+    top: 100px;
 }
 
 #divstep{
@@ -52,11 +64,21 @@ footer{
     padding-left: 10px;
     font-size: 20px;
     font-family: "consolas";
+    position: relative;
+    top: -60px;
 }
 
 #divprincipal{
-    background-image: url(simplebackground.png);
+    background-image: url(z_simplebackground.png);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 #creat{
     font-family: "consolas";
+}
+
+footer{
+    color:aliceblue;
+    background-color:rgb(11, 49, 73);
+    height: 25vh;
+    padding: 10px;
 }
